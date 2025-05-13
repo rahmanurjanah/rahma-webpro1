@@ -7,7 +7,7 @@
     <title>Kalkulator bangun datar</title>
 </head>
 <body>
-<h1>Bangun Datar</h1>
+<h1> Kalkulator Bangun Datar</h1>
 <ul>
     <li><a href="belahketupat.php">Belah Ketupat</a></li>
     <li><a href="JajarGenjang.php">Jajar Genjang</a></li>
