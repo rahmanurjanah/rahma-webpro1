@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>belah ketupat</title>
 </head>
 <body>
-<?php
+    <?php
     $d1=$_POST['d1'];
     $d2=$_POST['d2'];
     $sisi=$_POST['sisi'];

@@ -15,8 +15,8 @@
     <li><a href="Lingkaran.php">Lingkaran</a></li>
     <li><a href="Persegi.php">Persegi</a></li>
     <li><a href="PersegiPanjang.php">Persegi Panjang</a></li>
-    <li><a href="Segitiga.php">Segitiga</a></li>
-    <li><a href="Trapesium.php">Trapesium</a></li>
+    <li><a href="Segitigaaction.php">Segitiga</a></li>
+    <li><a href="Trapesiumaction.php">Trapesium</a></li>
 </ul>
 
 

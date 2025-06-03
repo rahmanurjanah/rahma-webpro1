@@ -2,25 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>segitiga</title>
 </head>
 <body>
-<?php
-    $alas=6;
-    $tinggi=18;
-    $sisia=7;
-    $sisib=8;
-    $sisic=5;
-    $luas=2*($alas*$tinggi);
-    $keliling=$sisia + $sisib + $sisic;
 
-    ?>
-    <a href="index.php">Home</a>
-    <h1>Segitiga</h1>
-    <h4>luas = 2 (alas x tinggi) = <?php echo $luas;?></h4>
-    <h4>keliling = sisia + sisib + sisic = <?php echo $keliling;?></h4>
+<a href="index.php">Home</a>
+    <h1>segitiga</h1>
+    <form action="segitigaaction.php" method="post" >
+       alas:<input type="number" name="alas"><br>
+       tinggi:<input type="number" name="tinggi"><br>
+       sisi_1:<input type="number" name="sisi_1"><br>
+       sisi_2:<input type="number" name="sisi_2"><br>
+       sisi_3:<input type="number" name="sisi_3"><br>
+       <input type="submit" value="Hitung">
+    </form>
 
 </body>
 <img src="segitiga.jpg" widht="300" height="300" alt="">

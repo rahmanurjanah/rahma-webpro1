@@ -2,21 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>trapesium</title>
 </head>
 <body>
-<?php
-    $sisia=10;
-    $sisib=8;
-    $tinggi=5;
-    $luas=1/2*($sisia + $sisib) * $tinggi;
-?>
-<a href="index.php">Home</a>
-    <h1>Trapesium</h1>
-    <h4>luas = 1/2 x (sisia + sisib) x tinggi = <?php echo $luas;?></h4>
 
-</body>
+<<a href="index.php">Home</a>
+   <h1>trapesium</h1> 
+   <form action="trapesiumcopy.php" method="post">
+    alas_atas:<input type="number" name="alas_atas"><br>
+    alas_bawah:<input type="number" name="alas_bawah"><br>
+    tinggi:<input type="number" name="tinggi"><br>
+    sisi_1:<input type="number" name="sisi_1"><br>
+    sisi_2:<input type="number" name="sisi_2"><br>
+    <input type="submit" value="Hitung">
+   </form>
 <img src="trapesium.jpg" widht="300" height="300" alt="">
 </html>
